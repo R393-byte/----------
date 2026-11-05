@@ -30,3 +30,14 @@ print("Тобі " + age_str + " років.")
 print("Твоя улюблена гра — " + game + ".")
 next_age = int(age_str) + 1
 print("Через рік тобі буде " + str(next_age) + " років.")
+#2
+product = input("Що купуємо? ")
+price = float(input("Ціна одного товару:"))
+amount = int(input("Скільки товарів купуємо? "))
+total = price * amount
+user_money = float(input("Скільки у вас грошей? "))
+change = user_money - total
+print("Ваша покупка: " + product)
+print("Кількість: " + str(amount))
+print("До сплати: " + str(total) + " $")
+print("Ваша решта: " + str(change) + " $")
